@@ -8,6 +8,7 @@ Use encrypted JSON file with this configuration provider for .NET Core's Microso
     <Authors>Ronny Natsuo</Authors>
     <Company>Miqo</Company>
     <RepositoryUrl>https://github.com/miqoas/Miqo.EncryptedJsonConfiguration</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/miqoas/Miqo.EncryptedJsonConfiguration</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
