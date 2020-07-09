@@ -6,9 +6,10 @@
 Use encrypted JSON file with this configuration provider for .NET Core's Microsoft.Extensions.Configuration. The JSON files use AEAD AES-256-GCM encryption.</Description>
     <Copyright>Copyright (c) 2020 Ronny Natsuo</Copyright>
     <Authors>Ronny Natsuo</Authors>
-    <Company>Miqo</Company>
+    <Company></Company>
     <RepositoryUrl>https://github.com/miqoas/Miqo.EncryptedJsonConfiguration</RepositoryUrl>
     <PackageProjectUrl>https://github.com/miqoas/Miqo.EncryptedJsonConfiguration</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
