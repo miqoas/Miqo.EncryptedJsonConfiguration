@@ -14,6 +14,8 @@ env:
     GITHUB_FEED: https://nuget.pkg.github.com/miqoas/
     GITHUB_USER: natsuo
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    NUGET_FEED: https://api.nuget.org/v3/index.json
+    NUGET_KEY: ${{ secrets.NUGET_KEY }}
 
 jobs:
   build:
@@ -86,3 +88,5 @@ jobs:
           do
             curl -vX PUT -u "$GITHUB_USER:$GITHUB_TOKEN" -F package=@$f $GITHUB_FEED
           done
+      - name: Push to NuGet Feed
+        run: dotnet nuget push ./nupkg/*.nupkg --source $NUGET_FEED --skip-duplicate --api-key $NUGET_KEY
