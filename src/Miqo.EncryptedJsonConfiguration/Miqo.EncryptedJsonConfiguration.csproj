@@ -10,6 +10,7 @@ Use encrypted JSON file with this configuration provider for .NET Core's Microso
     <RepositoryUrl>https://github.com/miqoas/Miqo.EncryptedJsonConfiguration</RepositoryUrl>
     <PackageProjectUrl>https://github.com/miqoas/Miqo.EncryptedJsonConfiguration</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
