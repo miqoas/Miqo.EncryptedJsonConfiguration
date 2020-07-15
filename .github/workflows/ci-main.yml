@@ -1,8 +1,8 @@
-name: Build & Test Main
+name: Build & Test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   release:
     types: [ published ]
 
