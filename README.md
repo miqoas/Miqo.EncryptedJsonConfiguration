@@ -2,7 +2,7 @@
 
 ### Configuring your .NET Core with encrypted JSON files has never been so easy
 
-![Build & Test](https://github.com/miqoas/Miqo.EncryptedJsonConfiguration/workflows/Build%20&%20Test%20Main/badge.svg)
+![Build & Test](https://github.com/miqoas/Miqo.EncryptedJsonConfiguration/workflows/Build%20&%20Test/badge.svg)
 
 Use encrypted JSON file with this configuration provider for .NET Core's `Microsoft.Extensions.Configuration`. The JSON files use AEAD AES-256-GCM encryption.
 
