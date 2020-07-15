@@ -2,7 +2,7 @@ name: Build & Test PR
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 env:
     NETCORE_VERSION: '3.1.301'
